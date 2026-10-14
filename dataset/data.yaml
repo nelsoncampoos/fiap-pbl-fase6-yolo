@@ -1,0 +1,11 @@
+# Dataset YOLO — PBL Fase 6 (guitar x teapot)
+# No Colab, o notebook reescreve `path` para o diretório real do dataset no Drive.
+path: /content/drive/MyDrive/pbl_fase6/dataset
+train: train/images
+val: val/images
+test: test/images
+
+nc: 2
+names:
+  0: guitar
+  1: teapot
